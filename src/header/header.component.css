@@ -1,0 +1,71 @@
+:host {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header {
+    height: 63px;
+    width: 800px;
+    background-color: #0F172A;
+    border-radius: 0 0 16px 16px;
+    margin: 0 auto;
+    align-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+p {
+    margin: 0 30px;
+    user-select: none;
+}
+
+.logo_container {
+    align-content: center;
+}
+
+.logo_text {
+    font-size: 24px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.logo_text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 37px;
+    height: 1px;
+    background: #9DFF00;
+}
+
+.button_stack {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+svg {
+    height: 28px;
+    width: 28px;
+    fill: #fff;
+    transition: fill 0.2s linear;
+}
+
+path {
+    fill: inherit;
+}
+
+a {
+    height: 100%;
+    align-content: center;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+a:hover svg {
+    fill: gray;
+}

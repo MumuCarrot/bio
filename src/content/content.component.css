@@ -1,0 +1,84 @@
+:host {
+    flex: auto;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid rgb(22, 33, 61);
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(22, 33, 61);
+}
+
+h1 {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 22px 23px 28px;
+}
+
+p {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 23px 28px;
+}
+
+.row {
+    flex: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.sizecontent {
+    flex: 1 1 auto;
+}
+
+.container {
+    flex: 1;
+    border-radius: 16px;
+    background-color: rgb(15, 23, 42, 0.8);
+    margin-bottom: 40px;
+}
+
+.container.left {
+    margin-right: 30px;
+    height: 274px;
+}
+
+.container.right {
+    margin-left: 30px;
+    max-height: 274px;
+}
+
+.container.total {
+    flex-basis: 100%;
+}
+
+.container.contentcenter {
+    align-content: center;
+}
+
+.container.picture {
+    overflow: hidden;
+}
+
+img {
+    position: absolute
+}
